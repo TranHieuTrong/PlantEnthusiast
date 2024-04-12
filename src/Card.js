@@ -24,7 +24,6 @@ const Card = () => {
   const [paymentConfirmed, setPaymentConfirmed] = useState(false);
 
   const handleButtonContinue = () => {
-    // Đặt trạng thái modalVisible thành true để hiển thị modal
     setModalVisible(true);
   };
 
